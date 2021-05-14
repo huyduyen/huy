@@ -1,0 +1,340 @@
+*
+{
+	padding: 0px;
+	margin:0px;
+	font-family: sans-serif;
+}
+.container
+{
+	width: 83%;
+	margin: auto;
+}
+
+.a{
+
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	
+}
+.a img{
+	padding-left:10px;
+}
+nav{
+	width: 100%;
+	height:35px;
+	background-color: #1d1d21;
+}
+.menu ul{
+	list-style: none;
+
+}
+.menu ul li
+{
+	float: left;
+	line-height: 35px;
+	padding: 0 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+}
+.search{
+	float: right;
+	line-height: 33px;
+	padding-right: 10px;
+}
+.ảnh{
+	height: 400px;
+	margin-bottom: 20px;
+
+
+}
+.ảnh img
+{
+	width: 100%;
+	height: 100%;
+	image-rendering: pixelated;
+}
+article h3
+{
+	margin-top: 20px;
+	font-size: 200%;
+	color: #272f54;
+	margin: auto;
+	width: 20%;
+	
+	border-bottom: 1PX solid black;
+}
+article .newlist
+{
+	margin-top: 5%; 
+}
+article .newlist .newitem
+{
+	margin-top: 5%;
+	width: 28%;
+	float: left;
+	margin:0 2.5%;
+	border: 1px solid #ccc;
+	margin-bottom: 5%;
+}
+article .newlist .newitem:hover
+{
+box-shadow: 2px 2px 2px 1px #5d5656;
+transition: 0.7s;
+}
+.dd{
+	width: 95%;
+	margin-left: 2.5%;
+}
+article .newlist .newitem div
+{
+		font-family: 'KoHo', sans-serif;
+		margin: auto;
+
+}
+
+
+article .newlist .newitem h4
+
+{
+	color: red;
+	text-align: center;
+	font-family: 'Newsreader', serif;
+	font-size: 140%;
+}
+article .newlist1{
+	margin-top: 4%;
+}
+article .newlist1 .newitem1
+{
+	background-image: url(hs.jpg);
+	
+	width: 28%;
+	height: 200px;
+	float: left;
+	margin:0 2.5%;
+
+	border: 1px solid #ccc;
+	position: relative;
+	overflow: hidden;
+	transition: 0.6s;
+
+}
+article .newlist1 .newitem2
+{
+	background-image: url(tkdh.png);
+	
+	width: 28%;
+	height: 200px;
+	float: left;
+	margin:0 2.5%;
+
+	border: 1px solid #ccc;
+	position: relative;
+	overflow: hidden;
+	transition: 0.6s;
+
+}
+article .newlist1 .newitem3
+{
+	background-image: url(ltwt.jpg);
+	
+	width: 28%;
+	height: 200px;
+	float: left;
+	margin:0 2.5%;
+
+	border: 1px solid #ccc;
+	position: relative;
+	overflow: hidden;
+	transition: 0.6s;
+
+}
+article .newlist1 .newitem1 img{
+	width: 100%;
+	height:10%;
+}
+article .newlist1 .newitem1 p
+{
+	color: red;
+	text-align: center;
+	line-height: 200px;
+	text-transform: uppercase;
+	font-size: 140%;
+}
+article .newlist1 .newitem2 p
+{
+	color: blue;
+	text-align: center;
+	line-height: 200px;
+	text-transform: uppercase;
+	font-size: 140%;
+}
+article .newlist1 .newitem3 p
+{
+	color: blue;
+	text-align: center;
+	line-height: 200px;
+	text-transform: uppercase;
+	font-size: 140%;
+}
+article .newlist1 .newitem1 .khoi{
+	width: 45%;
+	height: 57%;
+	background-color: red;
+	transform: rotate(229deg)
+	;
+	position: absolute;
+	top: -45%;
+	left: -27%;
+
+}
+article .newlist1 .newitem2 .khoi1{
+	width: 45%;
+	height: 57%;
+	background-color: blue;
+	transform: rotate(229deg)
+	;
+	position: absolute;
+	top: -45%;
+	left: -27%;
+
+}
+article .newlist1 .newitem3 .khoi2{
+	width: 45%;
+	height: 57%;
+	background-color: green;
+	transform: rotate(229deg)
+	;
+	position: absolute;
+	top: -45%;
+	left: -27%;
+
+}
+article .newlist1 .newitem1:hover
+{	background-image: none;
+	top: -10px;
+	transition: 0.6s;
+
+}
+article .newlist1 .newitem2:hover
+{	background-image: none;
+	top: -10px;
+	transition: 0.6s;
+}
+article .newlist1 .newitem3:hover
+{	background-image: none;
+	top: -10px;
+	transition: 0.6s;
+}
+article .newlist1 .newitem1:hover p{
+	color: red;
+	font-size: 150%;
+	transition: 0.6s;
+	font-weight: bold;
+}
+article .newlist1 .newitem2:hover p{
+	color: red;
+	font-size: 150%;
+	transition: 0.6s;
+	font-weight: bold;
+}
+article .newlist1 .newitem3:hover p{
+	color: red;
+	font-size: 150%;
+	transition: 0.6s;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+#p1:hover{
+	color: blue;
+	font-size: 150%;
+	transition: 0.6s;
+	font-weight: bold;
+}
+#p2:hover{
+	color: green;
+	font-size: 150%;
+	transition: 0.6s;
+	font-weight: bold;
+}
+.end{
+	width: 100%;
+	height: 400px;
+	background-color: black;
+	margin-top:25%;
+	display: block;
+}
+.end div
+{
+	width: 33%;
+	height: 80%;
+	float: left;
+
+
+	border-right: 1px solid yellow;
+}
+.end div h3
+{
+	color: yellow;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 5%;
+	padding-left: 5%;
+	font-size: 150%;
+}
+.end div img{
+	width: 60%;
+	height: 50%;
+	margin-top: 20%;
+	margin-left: 25%;
+}
+.end div ul li
+{
+	color: yellow;
+	margin-left: 10%;
+
+}
+.end div ul li i
+{
+	
+	color:yellow;
+	font-size:150%;
+	display: inline;
+
+	
+
+}
+.end div ul li  p
+{
+	line-height: 40px;
+	margin-bottom: 5%;margin-top: 5%;
+	font-size: 130%;
+	font-family: 'Roboto', sans-serif;
+}
+.end div ul li  p a
+{
+	color: yellow;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+.end div ul li  p a:hover
+{
+	color: blue;
+}
+#super{
+	border-right: none;
+}
