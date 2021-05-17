@@ -1,559 +1,163 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FPT Polytenich</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="fontawesome-free-web/css/all.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
+    <title>web hay ho</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<style type="text/css">
-		*
-{
-	padding: 0px;
-	margin:0px;
-	font-family: sans-serif;
-}
-.container
-{
-	width: 83%;
-	margin: auto;
-}
+    <nav class="searchmenu">
+                              
+        <div class="menu">
+            <ul>
+                <li><a href="#"><img src="HUy-kaca.png"></a></li>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#prd">New product</a></li>
+                <li><a href="#chi">Đồ đôi</a></li>
+                <li><a href="#tt">Tin tức</a></li>
+                <li><a href="#y">Xu hướng</a></li>
+                
+            </ul>
 
-.a{
-
-	width: 100%;
-	height: 70px;
-	background-color: black;
-	
-}
-.a img{
-	padding-left:10px;
-}
-nav{
-	width: 100%;
-	height:35px;
-	background-color: #1d1d21;
-}
-.menu ul{
-	list-style: none;
-
-}
-.menu ul li
-{
-	float: left;
-	line-height: 35px;
-	padding: 0 15px;
-}
-.menu ul li a{
-	text-decoration: none;
-	font-size: 13px;
-	color: white;
-}
-.search{
-	float: right;
-	line-height: 33px;
-	padding-right: 10px;
-}
-.ảnh{
-	height: 400px;
-	margin-bottom: 20px;
-
-
-}
-.ảnh img
-{
-	width: 100%;
-	height: 100%;
-	image-rendering: pixelated;
-}
-article h3
-{
-	margin-top: 20px;
-	font-size: 200%;
-	color: #272f54;
-	margin: auto;
-	width: 20%;
-	
-	border-bottom: 1PX solid black;
-}
-article .newlist
-{
-	margin-top: 5%; 
-}
-article .newlist .newitem
-{
-	margin-top: 5%;
-	width: 28%;
-	float: left;
-	margin:0 2.5%;
-	border: 1px solid #ccc;
-	margin-bottom: 5%;
-}
-article .newlist .newitem:hover
-{
-box-shadow: 2px 2px 2px 1px #5d5656;
-transition: 0.7s;
-}
-.dd{
-	width: 95%;
-	margin-left: 2.5%;
-}
-article .newlist .newitem div
-{
-		font-family: 'KoHo', sans-serif;
-		margin: auto;
-
-}
-
-
-article .newlist .newitem h4
-
-{
-	color: red;
-	text-align: center;
-	font-family: 'Newsreader', serif;
-	font-size: 140%;
-}
-article .newlist1{
-	margin-top: 4%;
-}
-article .newlist1 .newitem1
-{
-	background-image: url(hs.jpg);
-	
-	width: 28%;
-	height: 200px;
-	float: left;
-	margin:0 2.5%;
-
-	border: 1px solid #ccc;
-	position: relative;
-	overflow: hidden;
-	transition: 0.6s;
-
-}
-article .newlist1 .newitem2
-{
-	background-image: url(https://chuphinh.net/wp-content/uploads/2019/12/album-a%CC%89nh-ky-yeu-tot-nghiep.jpg);
-	
-	width: 28%;
-	height: 200px;
-	float: left;
-	margin:0 2.5%;
-
-	border: 1px solid #ccc;
-	position: relative;
-	overflow: hidden;
-	transition: 0.6s;
-
-}
-article .newlist1 .newitem3
-{
-	background-image: url(ltwt.jpg);
-	
-	width: 28%;
-	height: 200px;
-	float: left;
-	margin:0 2.5%;
-
-	border: 1px solid #ccc;
-	position: relative;
-	overflow: hidden;
-	transition: 0.6s;
-
-}
-article .newlist1 .newitem1 img{
-	width: 100%;
-	height:10%;
-}
-article .newlist1 .newitem1 p
-{
-	color: red;
-	text-align: center;
-	line-height: 200px;
-	text-transform: uppercase;
-	font-size: 140%;
-}
-article .newlist1 .newitem2 p
-{
-	color: blue;
-	text-align: center;
-	line-height: 200px;
-	text-transform: uppercase;
-	font-size: 140%;
-}
-article .newlist1 .newitem3 p
-{
-	color: blue;
-	text-align: center;
-	line-height: 200px;
-	text-transform: uppercase;
-	font-size: 140%;
-}
-article .newlist1 .newitem1 .khoi{
-	width: 45%;
-	height: 57%;
-	background-color: red;
-	transform: rotate(229deg)
-	;
-	position: absolute;
-	top: -45%;
-	left: -27%;
-
-}
-article .newlist1 .newitem2 .khoi1{
-	width: 45%;
-	height: 57%;
-	background-color: blue;
-	transform: rotate(229deg)
-	;
-	position: absolute;
-	top: -45%;
-	left: -27%;
-
-}
-article .newlist1 .newitem3 .khoi2{
-	width: 45%;
-	height: 57%;
-	background-color: green;
-	transform: rotate(229deg)
-	;
-	position: absolute;
-	top: -45%;
-	left: -27%;
-
-}
-article .newlist1 .newitem1:hover
-{	background-image: none;
-	top: -10px;
-	transition: 0.6s;
-
-}
-article .newlist1 .newitem2:hover
-{	background-image: none;
-	top: -10px;
-	transition: 0.6s;
-}
-article .newlist1 .newitem3:hover
-{	background-image: none;
-	top: -10px;
-	transition: 0.6s;
-}
-article .newlist1 .newitem1:hover p{
-	color: red;
-	font-size: 150%;
-	transition: 0.6s;
-	font-weight: bold;
-}
-article .newlist1 .newitem2:hover p{
-	color: red;
-	font-size: 150%;
-	transition: 0.6s;
-	font-weight: bold;
-}
-article .newlist1 .newitem3:hover p{
-	color: red;
-	font-size: 150%;
-	transition: 0.6s;
-	font-weight: bold;
-}
+            
+        </div>
+        <div class="search">
+            <input type="search" name="search..." >
+            <button>
+                Tìm kiếm
+            </button>
+            
+        </div>
+            
+    </nav>
+    <section class="backgroud">
+    	<button onclick="showImage('image/headd1.jpg')" class="but1">
+    		<
+    		
+    	</button>
+    	<div>
+    	<img id="myimage" src="image/headd1.jpg" >
+    	<div/>
+    	
+    	<button onclick="showImage('image/head2.jpg',)" class="but2">
+    		>
+    		
+    	</button>
+    </section>
+    <h1 class="product1">New product</h1>
+    <div class="product" id="prd">
+    	<div class="product1">
+    		<div class="prd1">
+    			
+    		</div>
+    		<div class="prd2">
+    			<p>
+    				Bộ đồ thun danh cho nữ áo xanh quần đen bao mát bao đẹp ...........
+    			</p>
+    			 
+    		</div>
+    				
+    	</div>
+    	<div class="product2">
+    		<div class="prd11">
+    			
+    		</div>
+    		<div class="prd22">
+    			<p>
+    				Bộ đồ thun danh cho nữ áo xanh quần đen bao mát bao đẹp ...........
+    			</p>
+    			 		</div>
+    				
+    	</div>
+    	<div class="product3">
+    		<div class="prd111">
+    			
+    		</div>
+    		<div class="prd222">
+    			<p>
+    				Bộ đồ thun danh cho nữ áo xanh quần đen bao mát bao đẹp ...........
+    			</p>
+    			
+    		</div>
+    				
+    	</div>
 
 
 
+    </div>
+    <h1 id="chi">Đồ Đôi</h1>
 
+    <nav class="đôi" >
 
+    	<div class="đôi1">
+    		<img src="image/9.jpg">
+    	</div>
+    	<div class="đôi2">
+    		<div class="">
+    		<img src="image/8.jpg"></div>
+    	
+    	
+     		<div class="">
+    		<img src="image/10.jpg"></div><br>
+    	
+   		<div class="">
+    		<img src="image/11.jpg"></div>
+    		<div class="">
+    		<img src="image/12.jpg"></div>
+    	
+    	</div>
+    </nav>
+    <h1 id="tt">TIN TỨC</h1>
+    
+    <div class="tin">
+    	<img src="image/1.jpg">
+    	<a href="#">Gợi ý cách mix đồ với chân váy hoa nhí hot hit ngày hè xinh xắn mà không bị quê và sến súa!
+		</a>
+		<div><br>
+		<p>Vừa nền nã, dịu dàng lại vô cùng nổi bật, chân váy hoa nhí đang làm mưa làm làm gió là một must have item không thể thiếu trong tủ đồ.Phong cách cổ điển không hề hạn chế về tuổi tác. Dù bạn ở độ tuổi nào, phong cách này luôn mang tới thần thái sang trọng khó tả nếu được người mặc tận dụng tối đa những ưu điểm của nó.</p>
+	    	
+	    </div>
+	    </div>
+	    <div class="tin">
+    	<img src="image/1.jpg">
+    	<a href="#">Gợi ý cách mix đồ với chân váy hoa nhí hot hit ngày hè xinh xắn mà không bị quê và sến súa!
+		</a>
+		<div><br>
+		<p>Vừa nền nã, dịu dàng lại vô cùng nổi bật, chân váy hoa nhí đang làm mưa làm làm gió là một must have item không thể thiếu trong tủ đồ.Phong cách cổ điển không hề hạn chế về tuổi tác. Dù bạn ở độ tuổi nào, phong cách này luôn mang tới thần thái sang trọng khó tả nếu được người mặc tận dụng tối đa những ưu điểm của nó.</p>
+	    	
+	    </div>
+	    </div>
+	    <div class="tin">
+    	<img src="image/1.jpg">
+    	<a href="#">Gợi ý cách mix đồ với chân váy hoa nhí hot hit ngày hè xinh xắn mà không bị quê và sến súa!
+		</a>
+		<div><br>
+		<p>Vừa nền nã, dịu dàng lại vô cùng nổi bật, chân váy hoa nhí đang làm mưa làm làm gió là một must have item không thể thiếu trong tủ đồ.Phong cách cổ điển không hề hạn chế về tuổi tác. Dù bạn ở độ tuổi nào, phong cách này luôn mang tới thần thái sang trọng khó tả nếu được người mặc tận dụng tối đa những ưu điểm của nó.</p>
+	    	
+	    </div>
+	    </div>
+	    <div class="y"  id="y"><iframe width="600" height="310" marginwidth="400px" src="https://www.youtube.com/embed/-svNcCKLQlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	    
 
-
-
-
-#p1:hover{
-	color: blue;
-	font-size: 150%;
-	transition: 0.6s;
-	font-weight: bold;
-}
-#p2:hover{
-	color: green;
-	font-size: 150%;
-	transition: 0.6s;
-	font-weight: bold;
-}
-.end{
-	width: 100%;
-	height: 400px;
-	background-color: black;
-	margin-top:25%;
-	display: block;
-}
-.end div
-{
-	width: 33%;
-	height: 80%;
-	float: left;
-
-
-	border-right: 1px solid yellow;
-}
-.end div h3
-{
-	color: yellow;
-	text-transform: uppercase;
-	text-align: center;
-	padding-top: 5%;
-	padding-left: 5%;
-	font-size: 150%;
-}
-.end div img{
-	width: 60%;
-	height: 50%;
-	margin-top: 20%;
-	margin-left: 25%;
-}
-.end div ul li
-{
-	color: yellow;
-	margin-left: 10%;
-
-}
-.end div ul li i
-{
-	
-	color:yellow;
-	font-size:150%;
-	display: inline;
-
-	
-
-}
-.end div ul li  p
-{
-	line-height: 40px;
-	margin-bottom: 5%;margin-top: 5%;
-	font-size: 130%;
-	font-family: 'Roboto', sans-serif;
-}
-.end div ul li  p a
-{
-	color: yellow;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	
-
-}
-.end div ul li  p a:hover
-{
-	color: blue;
-}
-#super{
-	border-right: none;
-}
-
-	</style>
-	<div class="container">
-		<header>
-		<div class="a"><img src="logo-3.png"></div>		
-		</header>
-		<nav class="searchmenu">
-			<div class="menu">
-				<ul>
-					<li><a href="#">Trang chủ</a></li>
-					<li><a href="#">Hoạt động sinh viên</a></li>
-					<li><a href="#">Tuyển sinh</a></li>
-					<li><a href="#">Đào tạo</a></li>
-					<li><a href="#">Liên hệ</a></li>
-				</ul>
-
-				
-			</div>
-			<div class="search">
-				<input type="search" name="search..." >
-				<button>
-					Tìm kiếm
-				</button>
-				
-			</div>
+    
+    
+   
+    
+        
+    <script type="text/javascript">
+		function showImage(src){
+			document.getElementById('myimage').src=src;
 			
-		</nav>
-		<div class="ảnh">
-			<img src="hs.jpg">
-		
-			
-		</div>
-		<article>
-			<h3>
-					Tin Tức Học Tập
-
-			</h3>
-			<div class="newlist">
-				<div class="newitem">
-					<h4>
-											
-						Bước tới điều hướng tới tìm kiếm
-						Văn bản là 
-					</h4>
-					<img src="tokuda.jpg" class="dd">
-					<div class="phu-de">
-						 các thông tin từ chủ thể này sang chủ thể khác bằng ký hiệu gọi là chữ viết. Nó gồm tập hợp các câu có tính trọn vẹn về nội dung, hoàn chỉnh về hình thức, có tính liên kết chặt chẽ và hướng tới một mục tiêu giao tiếp nhất địn
-				</div>
-				
-					
-				</div>
-				<div class="newitem">
-					<h4>
-											
-						Bước tới điều hướng tới tìm kiếm
-						Văn bản là 
-					</h4>
-					<img src="tokuda.jpg" class="dd">
-					<div class="phu-de">
-						 các thông tin từ chủ thể này sang chủ thể khác bằng ký hiệu gọi là chữ viết. Nó gồm tập hợp các câu có tính trọn vẹn về nội dung, hoàn chỉnh về hình thức, có tính liên kết chặt chẽ và hướng tới một mục tiêu giao tiếp nhất địn
-				</div>
-				
-					
-				</div>
-				<div class="newitem" id="fix">
-					<h4>
-											
-						Bước tới điều hướng tới tìm kiếm
-						Văn bản là 
-					</h4>
-					<img src="tokuda.jpg" class="dd">
-					<div class="phu-de">
-						 các thông tin từ chủ thể này sang chủ thể khác bằng ký hiệu gọi là chữ viết. Nó gồm tập hợp các câu có tính trọn vẹn về nội dung, hoàn chỉnh về hình thức, có tính liên kết chặt chẽ và hướng tới một mục tiêu giao tiếp nhất địn
-				</div>
-				
-					
-				</div>
-
-			
-			</div>
-			<h3>
-					Tin Tức Học Tập
-
-			</h3>
-			<div class="newlist">
-				<div class="newitem">
-					<h4>
-											
-						Bước tới điều hướng tới tìm kiếm
-						Văn bản là 
-					</h4>
-					<img src="tokuda.jpg" class="dd">
-					<div class="phu-de">
-						 các thông tin từ chủ thể này sang chủ thể khác bằng ký hiệu gọi là chữ viết. Nó gồm tập hợp các câu có tính trọn vẹn về nội dung, hoàn chỉnh về hình thức, có tính liên kết chặt chẽ và hướng tới một mục tiêu giao tiếp nhất địn
-				</div>
-				
-					
-				</div>
-				<div class="newitem">
-					<h4>
-											
-						Bước tới điều hướng tới tìm kiếm
-						Văn bản là 
-					</h4>
-					<img src="tokuda.jpg" class="dd">
-					<div class="phu-de">
-						 các thông tin từ chủ thể này sang chủ thể khác bằng ký hiệu gọi là chữ viết. Nó gồm tập hợp các câu có tính trọn vẹn về nội dung, hoàn chỉnh về hình thức, có tính liên kết chặt chẽ và hướng tới một mục tiêu giao tiếp nhất địn
-				</div>
-				
-					
-				</div>
-				<div class="newitem" id="fix">
-					<h4>
-											
-						Bước tới điều hướng tới tìm kiếm
-						Văn bản là 
-					</h4>
-					<img src="tokuda.jpg" class="dd">
-					<div class="phu-de">
-						 các thông tin từ chủ thể này sang chủ thể khác bằng ký hiệu gọi là chữ viết. Nó gồm tập hợp các câu có tính trọn vẹn về nội dung, hoàn chỉnh về hình thức, có tính liên kết chặt chẽ và hướng tới một mục tiêu giao tiếp nhất địn
-				</div>
-				
-					
-				</div>
-
-			
-			</div>
-			<h3>
-					Tin Tức Học Tập
-
-			</h3>
-			<div class="newlist1">
-				<div class="newitem1">
-					
-					<p>môn tin</p>
-					<div class="khoi">
-					
-					</div>
-					
-				
-					
-				</div>
-
-				<div class="newitem2" >
-					
-					<div class="khoi1">
-					
-					</div>
-					<p id="p1">môn tin</p>
-				</div>
-				
-				<div class="newitem3">
-					<div class="khoi2">
-					
-					</div>
-					
-					<p id="p2">môn tin</p>
-				</div>	
-				
-				
+		}
+	</script>
 
 
-			
-			</div>
-			
-		</article>
-		<div class="end">
-			<div>
-				<h3>
-					liên hệ với tôi
-				</h3>
-			<ul>
-				<li><p><i class="fas fa-phone-alt"></i> :  0 9 7 2 0 4 9 5 1 8</p>
-				</li>
-				<li><p><i class="fas fa-envelope-open"></i> : luuhuy1221@gmail.com</p>
-				</li>
-				<li><p><i class="fab fa-facebook-f">:</i> <a href="https://www.facebook.com/profile.php?id=100029013491954">https://www.facebook.com/profile.php?id=100029013491954</a></p>
-				</li>
-
-			</ul>
-			</div>
-			<div>
-			<img src="logo-3.png">
-			</div>
-			<div id="super">
-				<h3>
-					liên hệ với tôi
-				</h3>
-			<ul>
-				<li><p><i class="fas fa-phone-alt"></i> :  0 9 7 2 0 4 9 5 1 8</p>
-				</li>
-				<li><p><i class="fas fa-envelope-open"></i> : luuhuy1221@gmail.com</p>
-				</li>
-				<li><p><i class="fab fa-facebook-f">:</i> <a href="https://www.facebook.com/profile.php?id=100029013491954">https://www.facebook.com/profile.php?id=100029013491954</a></p>
-				</li>
-
-			</ul>
-			</div>
-		</div>
-
+	
 
 </body>
 </html>
+	
