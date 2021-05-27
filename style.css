@@ -416,6 +416,47 @@ h1{
 
 
 
+.end{
+	width: 90%;
+	height: 30vh;
+	background-color: black;
+	margin: auto;
+
+}
+.end  p {
+	text-align: center;
+	color: white;
+	font-size: 130%;
+	font-weight: bold;
+	line-height: 40px;
+	
+	
+
+}
+.end  p i{
+	color: yellow;
+}
+.end img{
+
+	width: 30%;
+	height: 25%;
+	padding: auto;
+}
+.end p a{
+	text-align: center;
+	text-decoration: none;
+	color: yellow;
+	display: block;
+
+}
+.end a i{
+	color: yellow;
+	font-size: 180%;
+}
+.end p a:hover{
+	color: white;
+	
+}
 
 
 
